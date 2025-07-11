@@ -1,20 +1,33 @@
-# Support-Vector-Machine
-This repo contains SVM code with iris dataset and explanation for each line in the code.
+# SVM Classifier on Iris Dataset
 
-1- SVM
+# 📖 Description
 
-🧠 What is Support Vector Machine (SVM)?
+This project applies a Support Vector Machine (SVM) model to classify the Iris dataset into three species: Setosa, Versicolor, and Virginica.
 
-SVM is a supervised machine learning algorithm used for classification and sometimes regression.
+# 🧠 Model Explanation
 
-It tries to find the best boundary (hyperplane) that separates classes of data.
+SVM is a supervised learning model that finds the optimal hyperplane separating data into classes. It works well for clear margin separation and is effective in high-dimensional spaces.
 
-It focuses on the support vectors (data points closest to the boundary) to make decisions.
+## ✅ Benefits
 
-🎯 Goal of SVM (in classification):
+- Handles both linear and non-linear classification using kernels
+  
+- Effective in high-dimensional spaces
+  
+- Robust to overfitting (especially with proper kernel)
 
-To find a line (in 2D) or hyperplane (in higher dimensions) that:
+## ⚠️ Limitations
 
-Maximizes the margin (distance between the line and the nearest data points from both classes).
+- Slower on large datasets
+  
+- Requires tuning of kernel and regularization parameters
 
-Classifies data points correctly.
+## 📊 Dataset
+
+- **Name:** Iris Dataset
+  
+- **Source:** scikit-learn
+  
+- **Features:** Sepal/Petal Length & Width
+  
+- **Target:** Flower species (Setosa, Versicolor, Virginica)
