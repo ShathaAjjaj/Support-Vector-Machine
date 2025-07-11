@@ -1,10 +1,10 @@
 # SVM Classifier on Iris Dataset
 
-# 📖 Description
+## 📖 Description
 
 This project applies a Support Vector Machine (SVM) model to classify the Iris dataset into three species: Setosa, Versicolor, and Virginica.
 
-# 🧠 Model Explanation
+## 🧠 Model Explanation
 
 SVM is a supervised learning model that finds the optimal hyperplane separating data into classes. It works well for clear margin separation and is effective in high-dimensional spaces.
 
